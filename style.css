@@ -420,3 +420,36 @@
         justify-content: center;
     }
 }
+
+/* Upcoming Launches Section */
+.info-section {
+    background-color: var(--white);
+}
+
+.divider {
+    height: 3px;
+    width: 60px;
+    background-color: var(--gold);
+}
+
+.info-card {
+    background-color: var(--white);
+    transition: all 0.3s ease;
+    border: 1px solid #eee !important;
+}
+
+.info-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.info-card.active-launch {
+    border-color: var(--gold) !important;
+    background-color: rgba(197, 160, 89, 0.03);
+    box-shadow: 0 5px 20px rgba(197, 160, 89, 0.1);
+}
+
+.gold-text {
+    color: var(--gold) !important;
+    font-family: 'Playfair Display', serif;
+}
